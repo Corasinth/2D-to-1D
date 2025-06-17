@@ -68,6 +68,10 @@ Don't navigate away from your spreadsheet at this time. To cancel the scan, pres
 
 Once the script is finished, it will generate a `.txt` file in the folder it's stored in that's ready to be imported into Anki. You may wish to double check that everything looks correct before proceeding.
 
+## Features
+
+In addition to the already mentioned features, the script will (should) automatically filter empty cells and exclude them from the generated text file. 
+
 ## Contributing
 
 This is pretty barebones, and therefore somewhat inflexible and lacking in user-friendly features like a UI. Feel free to fork and make a pull request, or open an issue. 
