@@ -11,7 +11,7 @@ rowTerminator := "W"
 matrixStr := "#separator:tab`n#html:true"
 
 ; delay between keyboard actions in milliseconds—increase if your spreadsheet is lagging
-timeDelay := 100 
+timeDelay := 150
 
 ; Tracks size of table
 numOfColumns := 0
