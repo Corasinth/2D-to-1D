@@ -36,9 +36,9 @@ columnTerminator := "W"
 rowTerminator := "W"
 ```
 
-If your table is correctly formatted per the example below, its first row and column will be headers. To configure the script properly, replace the letter `W` for both the `columnTerminator` and the `rowTerminator` with whatever the the header is for your final column and final row.
+If your table is correctly formatted per the example below, its first row and column will be headers. To configure the script properly, replace the letter `W` for both the `columnTerminator` and the `rowTerminator` with whatever the header is for your final column and final row.
 
-Here's the example of a properly formatted table. 
+Here's an example of a properly formatted table, where the first row serves as the first letter in the letter pairs.  
 
 ![Example Table](media/example_table.png)
 
@@ -53,7 +53,7 @@ Increasing the delay slows the script down, but may fix any failures to properly
 To change the delay, look for this line of code near the top of the script:
 
 ```
-timeDelay := 100 
+timeDelay := 150
 ```
 
 The delay is measured in milliseconds.
