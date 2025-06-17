@@ -20,6 +20,8 @@ numOfRows := 0
 ; Holds the table representation
 matrix := []
 
+; Makes a note of whatever your clipboard has, so it can be restored at the end (won't work with images or keep formatting)
+clip := A_Clipboard
 
 ; ====================================== HOTKEYS ======================================
 1::generateFile()
@@ -56,6 +58,8 @@ generateFile(){
 
     }
     FileAppend(matrixStr, "table2Anki" "_" FormatTime(A_Now, "ddMMyy") "_" FormatTime(A_Now, "HHmmss") ".txt")
+    A_Clipboard := clip
+    ExitApp
 }
 
 
